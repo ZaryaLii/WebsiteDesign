@@ -1,0 +1,135 @@
+@import url('http://fonts.googleapis.com/css?family=poppinss:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(75, 70, 92);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color: rgb(125, 118, 148);
+    pointer-events: none;
+    margin-right: 270px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color:rgb(234, 172, 28);
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 1000;
+}
+
+.navigation a:hover{
+    background: rgb(134, 139, 210);
+    color: #efe278;
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text{
+    position: absolute;
+    left: 670px;
+    top: 300px;
+    font-size: 3em;
+    color: rgb(217, 219, 239);
+    text-shadow: 5px 5px 4px rgba(255, 255, 255, 0.2);
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.aboutMe{
+    position: absolute;
+    left: 0px;
+    top: 1140px;
+    background: rgb(217, 219, 239);
+    padding: 100px 400px;
+}
+
+.aboutMe h2{
+    font-size: 3em;
+    color: rgb(227, 164, 15);
+    margin-bottom: 10px;
+}
+
+.aboutMe p{
+    font-size: 20px;
+    color: rgb(111, 100, 147);
+    font-weight: 300;
+}
+
+.previousArt{
+    position: absolute;
+    left: 0px;
+    top: 1600px;
+    background: rgb(217, 219, 239);
+    padding: 50px 500px;
+}
+
+.previousArt h2{
+    position: center;
+    left: 700px;
+    top: 0px;
+    font-size: 3em;
+    color: rgb(227, 164, 15);
+    margin-bottom: 10px;
+}
+
+.previousArt p{
+    font-size: 20px;
+    color: rgb(111, 100, 147);
+    font-weight: 300;
+}
+
+.cv{
+    position: absolute;
+    left: 0px;
+    top: 4380px;
+    background: rgb(217, 219, 239);
+    padding: 0px;
+}
+.cv h2{
+    position: center;
+    top: 0px;
+    font-size: 3em;
+    color: rgb(227, 164, 15);
+    padding: 50px 500px;
+}
+
+.cv table{
+    position: center;
+    padding: 50px 550px;
+}
